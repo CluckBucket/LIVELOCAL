@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LIVELOCAL | Eat’n Good</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #FFF8F2;
+      font-family: 'Lato', sans-serif;
+      color: #222;
+      text-align: center;
+    }
+
+    header {
+      background-color: #A60E0E;
+      padding: 0;
+    }
+
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    main {
+      padding: 2rem 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 1rem;
+      color: #A60E0E;
+    }
+
+    .code-box {
+      background-color: #FFE8E8;
+      border: 2px dashed #A60E0E;
+      border-radius: 10px;
+      display: inline-block;
+      padding: 1rem 2rem;
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #A60E0E;
+      margin: 1.5rem 0;
+    }
+
+    .note {
+      font-size: 1rem;
+      margin-top: 1rem;
+      color: #444;
+    }
+
+    .locations {
+      margin-top: 2rem;
+    }
+
+    .locations h2 {
+      color: #A60E0E;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .location {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Add your Canva-designed image here -->
+    <img src="header-image.jpg" alt="LIVELOCAL - You're a Local VIP!" class="header-image" />
+  </header>
+  <main>
+    <h1>Show this screen to save 20%!</h1>
+    <p>We’re saying THANK YOU to our amazing local customers. Use the code below at any Eat’n Good spot and enjoy 20% off — just show this screen at the register.</p>
+    
+    <div class="code-box">LIVELOCAL</div>
+
+    <p class="note">Valid from <strong>May 26 – June 7</strong>. One use per customer. In-store only.</p>
+
+    <div class="locations">
+      <h2>Where to Use It:</h2>
+      <div class="location">
+        <strong>Cluck Bucket & The Coffee Coop</strong><br/>
+        102 W. Ludington Ave (Legacy Plaza), Ludington MI
+      </div>
+      <div class="location">
+        <strong>Miss Ruby Food Truck</strong><br/>
+        5750 W. US Hwy 10 (The 10 Spot), Ludington MI
+      </div>
+      <div class="location">
+        <strong>PITBowls</strong><br/>
+        88 S Pere Marquette Hwy, Ludington MI
+      </div>
+    </div>
+  </main>
+  <footer>
+    Eat’n Good Family — Thanks for supporting local ❤️
+  </footer>
+</body>
+</html>
